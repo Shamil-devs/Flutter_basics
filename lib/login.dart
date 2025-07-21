@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'home.dart';
 class LoginScreen extends StatefulWidget{
   _LoginState createState()=>_LoginState();
 
@@ -20,8 +20,8 @@ class _LoginState extends State<LoginScreen>{
           context: context,
           builder: (_) =>
               AlertDialog(
-                title: Text("Died"),
-                content: Text("Incorrectt username or password!"),
+                title: Text("Wasted"),
+                content: Text("Incorrect username or password!"),
                 actions: [
                   TextButton(
                       onPressed: () => Navigator.pop(context),
